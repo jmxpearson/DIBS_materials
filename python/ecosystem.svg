@@ -90,7 +90,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -442,5 +442,11 @@
            x="-201.14548"
            y="119.99376">SymPy</tspan></text>
     </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5007"
+       d="M 228.9846,278.18228 184.69889,48.182268"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
