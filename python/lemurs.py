@@ -94,7 +94,7 @@ if __name__ == '__main__':
     # set x-limits
     ax.set_xlim(0, 6);
 
-    fig.savefig('lemurfig.pdf')
+    fig.savefig('lemurfig.pdf', bbox_inches='tight')
 
     summary_data.to_csv('summary_data.csv')
 
