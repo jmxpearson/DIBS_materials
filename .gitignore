@@ -1,2 +1,4 @@
 .ipynb_checkpoints
 python/data
+*.pdf
+*.csv
