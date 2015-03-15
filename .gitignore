@@ -2,3 +2,4 @@
 python/data
 *.pdf
 *.csv
+*.pyc
