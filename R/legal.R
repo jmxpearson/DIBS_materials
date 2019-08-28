@@ -1,4 +1,5 @@
 # let's look at a different data set, one that requires actual data cleaning...
+library(tidyverse)
 
 df <- read_csv("https://raw.githubusercontent.com/pearsonlab/legal/master/data/combined_data.csv")
 
