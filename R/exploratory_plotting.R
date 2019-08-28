@@ -55,7 +55,7 @@ ggplot(diamonds) + geom_point(aes(x=carat, y=price, color=cut)) + scale_x_log10(
   
 ggplot(diamonds) + geom_hex(aes(x=carat, y=price, color=cut), bins=100) + scale_x_log10() + 
   scale_y_log10(limits=c(300, 20000)) +
-  facet_wrap(. ~ cut)
+  facet_wrap( ~ cut)
 
 ggplot(diamonds) + geom_density(aes(x=carat, color=cut))
 ggplot(diamonds) + geom_density(aes(x=carat, color=color))
