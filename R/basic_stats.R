@@ -29,4 +29,4 @@ ggplot(test_df) + geom_point(aes(x=carat, y=price, color=clarity)) + scale_x_log
 
 ggplot(test_df) + geom_line(aes(x=carat, y=price, color=color)) + 
   scale_x_log10() + scale_y_log10() +
-  facet_wrap(. ~ clarity)
+  facet_wrap(~ clarity)

@@ -16,7 +16,7 @@ spec(df)
 desc <- read_csv("https://raw.githubusercontent.com/pearsonlab/legal/master/data/scenario_classification.csv", col_types=cols(Scenario=col_factor()))
 
 # factors aren't necessarily picked in the order we want (they're done in order of appearance)
-# so let's relevel phyiscal evidence
+# so let's relevel physical evidence
 df <- df %>% mutate(physical=fct_relevel(physical, "No Physical", after=0),
                     scenario=fct_relevel(scenario, as.character(seq(1, 33))))
 
