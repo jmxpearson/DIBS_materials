@@ -26,7 +26,7 @@ ggplot(diamonds) + geom_histogram(aes((price)), bins = 100) + scale_x_log10()
 
 ggplot(diamonds) + geom_point(aes(x=carat, y=price))
 ggplot(diamonds) + geom_point(aes(x=carat, y=price), alpha=0.05)
-ggplot(diamonds) + geom_hex(aes(x=carat, y=price))  # need to install hexbin
+ggplot(diamonds) + geom_hex(aes(x=carat, y=price))  # need to install hexbin by typing `install.packages("hexbin")` in console
 ggplot(diamonds) + geom_hex(aes(x=carat, y=price), bins=100)
 ggplot(diamonds) + geom_hex(aes(x=carat, y=price), bins=100) + scale_x_log10()
 ggplot(diamonds) + geom_hex(aes(x=carat, y=price), bins=100) + scale_x_log10() + scale_y_log10()
